@@ -13,21 +13,25 @@
 
 ```bash
 python -m venv venv
+```
 
 * Для Windows:
 
 ```bash
 venv\Scripts\activate
+```
 
 * Для macOS/Linux:
 
 ```bash
 source venv/bin/activate
+```
 
 2. **Установите зависимости:**
 
 ```bash
 pip install -r requirements.txt
+```
 
 3. **Создайте папку для Excel файлов:**
 
@@ -35,6 +39,7 @@ pip install -r requirements.txt
 
 ```bash
 mkdir excel
+```
 
 4. **Создайте файл .env:**
 
@@ -43,9 +48,10 @@ mkdir excel
 ```bash
 USER_EMAIL=your_email@example.com
 USER_PASSWORD=your_password
-
+```
 
 После настройки окружения и зависимостей, для запуска скрипта используйте:
 
 ```bash
 python main.py
+```
