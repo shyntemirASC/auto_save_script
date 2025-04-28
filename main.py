@@ -121,4 +121,6 @@ def collect_numbers():
 
 
 if __name__ == "__main__":
+    excel = "excel/"
+    os.makedirs(excel, exist_ok=True)
     collect_numbers()
